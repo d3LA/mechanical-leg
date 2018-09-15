@@ -1,3 +1,3 @@
 # mechanical-leg
-this project contains all necessary files needed for the completion of 
+This repository contains all necessary files needed for the completion of 
 the project. We are open to any form of collaboration
