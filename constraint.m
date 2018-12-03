@@ -1,7 +1,7 @@
 function y = constraint(x)
 run leg.m
 delta = tL(1)-tL(2);
-theta1 = xL(2,1); theta2 = xL(2,3);
+theta1 = xL(n,1); theta2 = xL(n,3); % n = 1, increases per every step
 dtheta11 = x(2); dtheta21 = x(4); 
 ddtheta1 = -2*x(2)/delta; ddtheta21 = -2*x(4)/delta;
 tau1 = x(1); tau2 = x(3);
